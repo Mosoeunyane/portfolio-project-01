@@ -9,7 +9,7 @@ body{
 }
 h1,h2,h3,h4,h5,h6 {
   color: black;
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 h1{
@@ -37,8 +37,8 @@ P {
   line height: 2;
   font-size: 24px;
 }
-.btn-branding{
-  background: var(--broding-color);
+.btn-branding {
+  background: var(--branding-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
